@@ -1,0 +1,28 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "AudioSegment",
+        "importPath": "pydub",
+        "description": "pydub",
+        "isExtraImport": true,
+        "detail": "pydub",
+        "documentation": {}
+    },
+    {
+        "label": "chemin_dossier",
+        "kind": 5,
+        "importPath": "convert",
+        "description": "convert",
+        "peekOfCode": "chemin_dossier = \"/home/danni/Videos\"\n# Parcourir tous les fichiers du dossier\nfor fichier in os.listdir(chemin_dossier):\n    # Vérifier si le fichier a l'extension .mp4\n    if fichier.endswith(\".mp4\"):\n        # Chemin complet du fichier vidéo\n        chemin_fichier_mp4 = os.path.join(chemin_dossier, fichier)\n        # Charger la vidéo\n        audio = AudioSegment.from_file(chemin_fichier_mp4, format=\"mp4\")\n        # Obtenir le nom du fichier sans l'extension",
+        "detail": "convert",
+        "documentation": {}
+    }
+]
